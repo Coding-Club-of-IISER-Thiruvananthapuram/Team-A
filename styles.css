@@ -91,8 +91,8 @@ header {
 }
 
 .logo-img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
 }
 
 .logo-text {
@@ -131,7 +131,8 @@ nav a {
 
 section {
   padding: 8em 3em;
-  max-width: 1200px;
+  max-width: 1700px;
+  min-height:60vh;
   margin: auto;
   color: white;
 }
@@ -311,5 +312,6 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
