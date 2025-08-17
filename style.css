@@ -230,7 +230,7 @@ section {
 }
 
 .card, .flip-card-front, .flip-card-back {
-  background: var(--card-bg);
+  background: white;
   color: var(--text-color);
 }
 
@@ -238,6 +238,8 @@ section {
   display: flex;
   gap: 1.5em;
   flex-wrap: wrap;
+  justify-content: cnter;
+  padding: 2em;
 }
 
 .card {
@@ -249,8 +251,8 @@ section {
 
 .flip-card {
   background: transparent;
-  width: 300px;
-  height: 220px;
+  width: 350px;
+  height: 300px;
   perspective: 1000px;
 }
 
@@ -271,12 +273,25 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
+  align-items: center;
+  justify-content: center;
   backface-visibility: hidden;
   border-radius: 8px;
-  padding: 1em;
+  padding: 0;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-
+.flip-card-front-b {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
 .flip-card-back {
   background: var(--accent);
   color: black;
@@ -369,6 +384,7 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
