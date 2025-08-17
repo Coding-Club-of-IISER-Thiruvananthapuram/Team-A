@@ -238,7 +238,7 @@ section {
   display: flex;
   gap: 1.5em;
   flex-wrap: wrap;
-  justify-content: cnter;
+  justify-content: center;
   padding: 2em;
 }
 
@@ -384,6 +384,7 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
