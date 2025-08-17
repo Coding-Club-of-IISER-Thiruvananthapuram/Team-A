@@ -297,7 +297,15 @@ section {
   color: black;
   transform: rotateY(180deg);
 }
-
+.club-img {
+  width: 100%;      
+  height: 100%;     
+  object-fit: contain; 
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -384,6 +392,7 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
