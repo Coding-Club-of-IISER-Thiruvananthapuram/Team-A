@@ -161,7 +161,7 @@ section {
   display: flex;
   width: 300%;
   height: 100%;
-  animation: slide 30s infinite;
+  animation: slide 15s infinite;
 }
 
 .slide {
@@ -369,6 +369,7 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
