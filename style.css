@@ -171,8 +171,8 @@ section {
 }
 
 .slide img {
-  width: auto;
-  height: auto;
+  width: 1700px;
+  height: 850px;
   object-fit: cover;
   margin:0 auto;
   display:block;
@@ -371,4 +371,5 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
