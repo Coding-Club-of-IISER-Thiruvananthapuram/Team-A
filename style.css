@@ -171,9 +171,11 @@ section {
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures images cover section */
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin:0 auto;
+  display:block;
 }
 
 @keyframes slide {
@@ -369,3 +371,4 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
