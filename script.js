@@ -3,7 +3,7 @@ const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme === 'light') {
   document.body.classList.add('light-mode');
-  themeToggle.textContent = '🌙';
+  themeToggle.textContent = '☀️';
 }
 
 themeToggle.addEventListener('click', () => {
@@ -69,4 +69,5 @@ window.addEventListener("scroll", function () {
 
   lastScrollTop = currentScroll;
 });
+
 
