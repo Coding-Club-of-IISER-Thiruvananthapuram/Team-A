@@ -3,13 +3,13 @@ const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme === 'light') {
   document.body.classList.add('light-mode');
-  themeToggle.textContent = '🌚';
+  themeToggle.textContent = '🌙';
 }
 
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('light-mode');
   const isLight = document.body.classList.contains('light-mode');
-  themeToggle.textContent = isLight ? '🌚' : '🌙';
+  themeToggle.textContent = isLight ? '🌙' : '☀️';
   localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
@@ -32,8 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
     minWidth: 200.00,
     scale: 1.0,
     scaleMobile: 1.0,
-    color: 0x4b2e83,
-    backgroundColor: 0x151515
+    color: 0x6900ff,
+    color2: 0x20ceff,
+    backgroundColor: 0x171717,
+    size: 3.10,
+    spacing: 34.00
   });
 });
 
@@ -66,3 +69,4 @@ window.addEventListener("scroll", function () {
 
   lastScrollTop = currentScroll;
 });
+
